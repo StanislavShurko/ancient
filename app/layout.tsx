@@ -26,10 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased m-3`}
       >
         <div className="text-center m-3">
-          <span className="font-sans text-xl font-medium">DOTA 2 Analytics</span>
+          <span className="font-sans text-4xl font-medium">DOTA 2 Analytics</span>
         </div>
         {children}
       </body>
